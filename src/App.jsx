@@ -1,3 +1,5 @@
+// App.jsx
+import React from 'react';
 import './App.css';
 import LikeImage from './components/LikeImage';
 import LikePost from './components/LikePost';
@@ -7,8 +9,8 @@ function App() {
     <div>
       <h3>Some Blog</h3>
       <div className='buttons'>
-        <LikePost/>
-        <LikeImage/>
+        <LikePost />
+        <LikeImage />
       </div>
     </div>
   );
